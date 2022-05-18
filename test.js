@@ -12,8 +12,8 @@ test('Converting 1970 should be equal to MCMLXX', () => {
 	expect(convertToRoman(1970)).toBe("MCMLXX")
 })
 
-test('Converting 11234 should be equal to --(XI)CCXXXIV', () => {
-	expect(convertToRoman(11234)).toBe("--(XI)CCXXXIV")
+test('Converting 11234 should be equal to -(X)MCCXXXIV', () => {
+	expect(convertToRoman(11234)).toBe("-(X)MCCXXXIV")
 })
 
 test('Converting 12.5 is Invalid', () => {

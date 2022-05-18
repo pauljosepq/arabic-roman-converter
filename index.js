@@ -1,3 +1,8 @@
+const prompt = require('prompt-sync')
+
+const arabic = prompt();
+console.log(`Roman: ${arabic}`)
+
 function convertToRoman(n) {
 	const romanNumbers = [
 		["-(M)", "1000000"],
@@ -9,9 +14,9 @@ function convertToRoman(n) {
 		["-(L)", "50000"],
 		["--(XL)", "40000"],
 		["-(X)", "10000"],
-		["--(IX)", "9000"],
+		["M-(X)", "9000"],
 		["-(V)", "5000"],
-		["--(IV)", "4000"],
+		["M-(V)", "4000"],
 		["M", "1000"],
 		["CM", "900"],
 		["D", "500"],
@@ -35,13 +40,11 @@ if (n % 1 == 0) {
 				n -= r[1]
 			}
 		})
+		return result.join('')
 } else {
-	console.log("Invalid")
-}
-	
-	return result.join('')
+	return "Invalid"
 }
 
-let nu = convertToRoman(5)
+}
 
 module.exports = convertToRoman
