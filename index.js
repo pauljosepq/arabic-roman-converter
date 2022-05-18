@@ -1,7 +1,7 @@
-const prompt = require('prompt-sync')
+const prompt = require('prompt-sync')()
 
-const arabic = prompt();
-console.log(`Roman: ${arabic}`)
+const arabic = prompt('');
+console.log(`Roman: ${convertToRoman(Number(arabic))}`)
 
 function convertToRoman(n) {
 	const romanNumbers = [

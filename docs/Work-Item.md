@@ -26,7 +26,7 @@
 
 1. Converting 1970 should be equal to MCMLXX
 
-1. Converting 11234 should be equal to --(XI)CCXXXIV
+1. Converting 11234 should be equal to -(X)MCCXXXIV
 
 1. Converting 12.5 is Invalid
 
