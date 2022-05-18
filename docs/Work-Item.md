@@ -2,17 +2,19 @@
 
 ## Requirements
 
-- Req-1: The application should verify that the number is arabic.
+- Req-1: The application should verify the number format.
 - Req-2: The application should follow roman numbers rules.
 - Req-3: The application must run in any operating system that supports Node.js and npm.
 - Req-4: The application must run with a Node version higher than or equal to 16.x.
 
 ## Acceptance Criteria
 
-- Cri-1: Roman numbers should be provided in uppercase.
-- Cri-2: Letter should not be repeated more than three times.
-- Cri-3: When a letter is followed by another letter with the same or a lower value, their values are added.
-- Cri-4: When the letters I, X, C are followed by another of greater value, they are subtracted.
+- Cri-1-1: The application should throw an "Invalid" message when number doesn't have a valid format.
+- Cri-2-1: The application should not allow numbers greater that 99,999.
+- Cri-2-2: Roman numbers should be provided in uppercase.
+- Cri-2-3: Letter should not be repeated more than three times.
+- Cri-2-4: When a letter is followed by another letter with the same or a lower value, their values are added.
+- Cri-2-5: When the letters I, X, C are followed by another of greater value, they are subtracted.
 
 ## Test Cases
 
@@ -49,3 +51,9 @@
    1. Type 1971 in the console
    1. Press enter
    1. Roman: MCMLXXI
+
+## References
+
+- [Readme](../Readme.md)
+
+- [Questions](Questions.md)

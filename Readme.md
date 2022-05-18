@@ -79,4 +79,6 @@ To install all application dependencies it will necessary to execute `npm instal
 
 ## References
 
-- [User Manual](User-manual.md)
+- [Work Item](./docs/Work-Item.md)
+
+- [Questions](./docs/Questions.md)
