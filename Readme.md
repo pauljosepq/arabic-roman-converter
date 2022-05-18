@@ -69,13 +69,15 @@ Also it will be necessary to install git to clone the application's repository.
 In order to clone the application's repository execute the following commands from the **git bash** or **bash**:
 
    ```bash
-   git clone https://github.com/pauljosepq/arabic-roman-converter
+   sudo git clone https://github.com/pauljosepq/arabic-roman-converter
    cd arabic-roman-converter
    ```
 
 ## Application dependencies
 
 To install all application dependencies it will necessary to execute `npm install` in the application root directory.
+
+To start the application `npm run start` and to run tests `npm run test`
 
 ## References
 
